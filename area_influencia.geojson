@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "area_influencia",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.061349071715563, 39.679934740450555 ], [ 4.579751650328928, 44.734360987402418 ], [ 9.363405062622652, 39.770192352003264 ], [ 3.632046729025452, 34.851152522380474 ], [ -1.061349071715563, 39.679934740450555 ] ] ] } }
+]
+}

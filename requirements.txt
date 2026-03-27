@@ -1,0 +1,11 @@
+geopandas
+shapely
+rasterio
+python-dotenv
+xarray
+netCDF4
+pillow
+matplotlib
+requests
+copernicusmarine
+h5py

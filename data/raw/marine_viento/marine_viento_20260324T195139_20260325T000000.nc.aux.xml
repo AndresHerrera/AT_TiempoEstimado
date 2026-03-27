@@ -1,0 +1,73 @@
+<PAMDataset>
+  <Subdataset name="wind_speed">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="latitude#axis">Y</MDI>
+        <MDI key="latitude#long_name">latitude</MDI>
+        <MDI key="latitude#standard_name">latitude</MDI>
+        <MDI key="latitude#units">degrees_north</MDI>
+        <MDI key="longitude#axis">X</MDI>
+        <MDI key="longitude#long_name">longitude</MDI>
+        <MDI key="longitude#standard_name">longitude</MDI>
+        <MDI key="longitude#units">degrees_east</MDI>
+        <MDI key="NC_GLOBAL#comment">Orbit period and inclination are constant values. All wind directions in oceanographic convention (0 deg. flowing North)</MDI>
+        <MDI key="NC_GLOBAL#contents">ovw</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.6</MDI>
+        <MDI key="NC_GLOBAL#copernicusmarine_version">2.3.0</MDI>
+        <MDI key="NC_GLOBAL#creation_date">2025-02-27</MDI>
+        <MDI key="NC_GLOBAL#creation_time">05:09:36</MDI>
+        <MDI key="NC_GLOBAL#equator_crossing_date">2025-02-25</MDI>
+        <MDI key="NC_GLOBAL#equator_crossing_longitude">319.738</MDI>
+        <MDI key="NC_GLOBAL#equator_crossing_time">23:53:22</MDI>
+        <MDI key="NC_GLOBAL#granule_name">GLO-WIND_L3-OBS_METOP-B_ASCAT_12_DES_20250226.nc</MDI>
+        <MDI key="NC_GLOBAL#history">N/A</MDI>
+        <MDI key="NC_GLOBAL#institution">EUMETSAT/OSI SAF/KNMI</MDI>
+        <MDI key="NC_GLOBAL#instrument_calibration_version">0</MDI>
+        <MDI key="NC_GLOBAL#orbit_inclination">98.7</MDI>
+        <MDI key="NC_GLOBAL#orbit_number">64561</MDI>
+        <MDI key="NC_GLOBAL#pixel_size_on_horizontal">12.5 km</MDI>
+        <MDI key="NC_GLOBAL#processing_level">L3</MDI>
+        <MDI key="NC_GLOBAL#processing_type">O</MDI>
+        <MDI key="NC_GLOBAL#references">ASCAT Wind Product User Manual, https://osi-saf.eumetsat.int/, https://scatterometer.knmi.nl/</MDI>
+        <MDI key="NC_GLOBAL#rev_orbit_period">6081.7</MDI>
+        <MDI key="NC_GLOBAL#service_type">N/A</MDI>
+        <MDI key="NC_GLOBAL#software_identification_level_1">1105</MDI>
+        <MDI key="NC_GLOBAL#software_identification_wind">3301</MDI>
+        <MDI key="NC_GLOBAL#source">MetOp-B ASCAT</MDI>
+        <MDI key="NC_GLOBAL#start_date">2025-02-26</MDI>
+        <MDI key="NC_GLOBAL#start_time">00:00:00</MDI>
+        <MDI key="NC_GLOBAL#stop_date">2025-02-26</MDI>
+        <MDI key="NC_GLOBAL#stop_time">23:59:58</MDI>
+        <MDI key="NC_GLOBAL#title">Global Ocean - Wind - METOP-B ASCAT - 12km daily Descending V2</MDI>
+        <MDI key="NC_GLOBAL#title_short_name">ASCATB-L3-Coastal</MDI>
+        <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+        <MDI key="NETCDF_DIM_time_DEF">{1,4}</MDI>
+        <MDI key="NETCDF_DIM_time_VALUES">1143244800</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#calendar">Gregorian</MDI>
+        <MDI key="time#long_name">Time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">seconds since 1990-01-01</MDI>
+        <MDI key="time#unit_long">Seconds Since 1990-01-01</MDI>
+        <MDI key="wind_speed#add_offset">0</MDI>
+        <MDI key="wind_speed#coordinates">time lat lon</MDI>
+        <MDI key="wind_speed#long_name">stress equivalent wind speed at 10 m</MDI>
+        <MDI key="wind_speed#missing_value">-32767</MDI>
+        <MDI key="wind_speed#scale_factor">0.01</MDI>
+        <MDI key="wind_speed#standard_name">wind_speed</MDI>
+        <MDI key="wind_speed#units">m s-1</MDI>
+        <MDI key="wind_speed#valid_max">5000</MDI>
+        <MDI key="wind_speed#valid_min">0</MDI>
+        <MDI key="wind_speed#_FillValue">-32767</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">38</MDI>
+          <MDI key="STATISTICS_MAXIMUM">998</MDI>
+          <MDI key="STATISTICS_MEAN">449.38996138996</MDI>
+          <MDI key="STATISTICS_STDDEV">194.22139989512</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>
